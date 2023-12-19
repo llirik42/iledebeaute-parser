@@ -6,7 +6,7 @@ import requests
 from dto import Brand, Item
 from .item_parser import ItemParser
 
-ItemParser
+
 class BrandItemsParser:
     __item_parser: ItemParser
 

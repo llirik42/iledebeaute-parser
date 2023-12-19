@@ -10,6 +10,6 @@ for b in brands:
     print(b)
 print('\n\n')
 
-items: list[Item] = brand_items_parser.parse(brands[11])
+items: list[Item] = brand_items_parser.parse(brands[5])
 for n, i in enumerate(items):
     print(f'{n + 1}. {i}\n')
